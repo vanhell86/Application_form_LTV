@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "functions.php",
+      "config/app.php"
+    ]
+  },
+  "require": {
+    "nikic/fast-route": "^1.3"
+  }
+}
